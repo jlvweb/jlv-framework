@@ -1,4 +1,5 @@
-# FILESTRUCTURE
+# Filestructure
+---------------
 * data
 * public
 * framework
@@ -10,13 +11,15 @@
   * shells
 
 
-# INSTALLATION
+# Installation
+---------------
 1.  Copy files in the src directory to your server
 2.  Set the "public" directory to be your public http document root
 3.  Edit site/config.php to set up your site
 
 
-# HOW TO WORK WITH JLV FRAMEWORK
+# How to work with JLV Framework
+---------------
 ### The shell
 The shell contains the core elements of the site, such as header, navigation, footer and so on
 Build the shell and set the function
