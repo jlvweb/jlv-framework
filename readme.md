@@ -1,4 +1,7 @@
-# Filestructure
+## JLV Framework
+A small PHP framework, created with a focus on simplicity and easy, fast and comfortable development.
+
+## Filestructure
 ---------------
 * data
 * public
@@ -11,14 +14,14 @@
   * shells
 
 
-# Installation
+## Installation
 ---------------
 1.  Copy files in the src directory to your server
 2.  Set the "public" directory to be your public http document root
 3.  Edit site/config.php to set up your site
 
 
-# How to work with JLV Framework
+## How to work with JLV Framework
 ---------------
 ### The shell
 The shell contains the core elements of the site, such as header, navigation, footer and so on
