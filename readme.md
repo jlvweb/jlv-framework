@@ -1,23 +1,10 @@
 ## JLV Framework
 A small PHP framework, created with a focus on simplicity and easy, fast and comfortable development.
 
-## Filestructure
-* data
-* public
-* framework
-  * library
-  * config
-* site
-  * library
-  * pages
-  * shells
-
-
 ## Installation
 1.  Copy files in the src directory to your server
 2.  Set the "public" directory to be your public http document root
 3.  Edit site/config.php to set up your site
-
 
 ## How to work with JLV Framework
 ### The shell
@@ -61,3 +48,14 @@ $entire_url = $CFG->url_vars[0]; // The complete URL
 $test_id = $CFG->url_vars[1]; // The match in the first pharentheses
 ```
 Learn more about regular expressions in PHP here http://www.php.net/manual/en/reference.pcre.pattern.syntax.php
+
+## Filestructure
+* data
+* public
+* framework
+  * library
+  * config
+* site
+  * library
+  * pages
+  * shells
