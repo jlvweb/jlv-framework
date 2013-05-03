@@ -19,13 +19,6 @@
  * ============================================================= */
  
 /* 
- * Start the session
- */
-if ($CFG->start_session) {
-    session_start();
-}
-
-/* 
  * Inport default configuration file
  */
 if (isset($CFG->FRAMEWORK_PATH)) {
@@ -33,7 +26,14 @@ if (isset($CFG->FRAMEWORK_PATH)) {
 } else {
     require_once($_SERVER["DOCUMENT_ROOT"] . "/../framework/config/config.default.php");
 }
-    
+
+/* 
+ * Start the session
+ */
+if ($CFG->start_session) {
+    session_start();
+}
+
 /*
  * Inport custom configuration file
   */
